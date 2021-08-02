@@ -1,5 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import React, { Component } from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Main from './components/Main';
+
 
 function App() {
   return (
@@ -18,6 +23,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <Header/>
+        <Main/>
+        <Footer/>
     </div>
   );
 }
