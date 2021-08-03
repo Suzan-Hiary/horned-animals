@@ -3,22 +3,36 @@ import React from 'react';
 
 class HornedBeasts extends React.Component {
 
-    constructor(props) {
-        super(props);
+    constructor() {
+        super();
         this.state = {
             numberOfLikes: 0,
         }
     }
-
-    likeNumbers = () => {
+    updateClick = () => {
         this.setState({
-            numberOfLikes: this.state.numberOfLikes + 1
+            numberOfLikes : this.state.numberOfLikes + 1
         })
     }
     render() {
         return (
-            
-                <img src={this.props.imgUrl} alt={this.props.title}  onClick={()=>{this.props.setData(this.props.imgUrl,this.props.title,this.props.description)}}></img>
-                
-        )}
+            <div>
+                <h1>{this.props.title}</h1>
+                <img
+                    onClick = {() => { this.updateClick() }}
+                    src={this.props.image_url}
+                    alt={this.props.title}
+                    width='400px' 
+                    height ="400px"
+                />
+                <p>{this.props.description}</p>
+                <p>{this.state.numberOfLikes }</p>
+            </div >
+        )
+
+
+
+
     }
+}
+export default HornedBeasts;
