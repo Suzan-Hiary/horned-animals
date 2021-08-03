@@ -102,3 +102,14 @@ Start time: ___3:05__
 Finish time: __3:13___
 
 Actual time needed to complete: __8 min___
+
+
+Number and name of feature: _____________Feature #1: Display a Modal___________________
+
+Estimate of time needed to complete: ___30 min__
+
+Start time: ___2__
+
+Finish time: __4___
+
+Actual time needed to complete: __2 hour___
