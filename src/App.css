@@ -95,3 +95,16 @@ p{
   font-family:fantasy;
   color:rgb(238, 251, 252)
 }
+
+Button{
+width:40px;
+height :40px; 
+
+
+}
+Button.text{
+text-align: center;
+}
+#p{
+  color: #282c34;
+}
