@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Data from './Data.json';
 import Horned from './HornedBeasts'
+import SelectedBeast from './SelectedBeast';
+
 
 
 
@@ -16,6 +18,7 @@ class Main extends Component {
                     description={item.description} />
                     
                     )
+
 
 
             })

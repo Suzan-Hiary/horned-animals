@@ -20,7 +20,7 @@ class HornedBeasts extends React.Component {
                 <Card  id="card">
                     <h1 >{this.props.title}</h1>
                     <img
-                        onClick={() => { this.updateClick() }}
+                      
                         src={this.props.image_url}
                         alt={this.props.title}
                         width='400px'
@@ -28,6 +28,8 @@ class HornedBeasts extends React.Component {
                         
                     />
                    
+                     onClick={() => { this.updateClick() }}
+                     <img src='./download.png'></img>
                     <p>{this.props.description}</p>
                     <p>{this.state.numberOfLikes}</p>
                     </Card>
