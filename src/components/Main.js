@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Data from './Data.json';
-import Horned from './HornedBeasts'
+import Horned from './HornedBeasts';
+
 
 
 
