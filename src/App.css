@@ -108,3 +108,7 @@ text-align: center;
 #p{
   color: #282c34;
 }
+.sub{
+  width:60px;
+  background-color:rgb(189, 238, 222)
+}
