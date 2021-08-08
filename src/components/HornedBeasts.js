@@ -32,8 +32,8 @@ class HornedBeasts extends React.Component {
                         onClick={this.openModal}
                         src={this.props.image_url}
                         alt={this.props.title}
-                        width='400px'
-                        height="400px"
+                        width='300px'
+                        height="300px"
 
                     />
 
@@ -46,7 +46,7 @@ class HornedBeasts extends React.Component {
                 <SelectedBeast
                     description={this.props.description}
                     title={this.props.title}
-                    imgsrc={this.props.image_url}
+                    src={this.props.image_url}
                     handleClose={this.handleClose}
                     show={this.state.showModal}
                 />

@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 import Main from './components/Main';
 import SelectedBeast from './components/SelectedBeast';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Form from './components/FORM';
+
 
 
 
@@ -16,7 +16,7 @@ function App() {
     <div className="App">
 
       <Header />
-      <Form />
+     
       <Main />
       <Footer />
       <SelectedBeast />
