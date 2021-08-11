@@ -1,13 +1,12 @@
-import React, { Component } from 'react' ;
+'use strict';
 
+import React, { Component } from 'react';
 class Footer extends Component {
     render() {
         return (
-            <div id="suzan">
-               Suzan Hiary @ASAC 
-            </div>
+            <div id="suzan">Suzan Hiary @ASAC </div>
         )
     }
 }
 
-export default Footer
+export default Footer; 
